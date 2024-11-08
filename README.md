@@ -1,13 +1,6 @@
 # PitchTalk - Auto Claim Bot
 
-🔗 **Referral Link**: [PitchTalk](https://t.me/pitchtalk_bot/app?startapp=ffd116)
-
-## 📢 Telegram Group
-
-Join our Telegram group to stay updated and get instructions on how to use this tool:
-
-- [Smart Airdrop](https://t.me/smartairdrop2120)
-- [Smart Airdrop - Channel](https://t.me/smartairdrop_channel)
+🔗 **Link to join**: [PitchTalk](https://t.me/pitchtalk_bot/app?startapp=0cb014)
 
 ## 🌟 Features
 
@@ -19,15 +12,28 @@ Join our Telegram group to stay updated and get instructions on how to use this 
 | Auto Upgrade Speed     | On/Off | Upgrade speed to get more points and tickets |
 | Auto Farm              | On/Off | Farm points every 6 hours                    |
 
-## 🚀 Run File
+## Installation
+
+Clone repository and change directory 
+
+```
+git clone https://github.com/zyz-airdrops/pitchtalk-claimer.git
+```
+```
+cd pitchtalk-claimer
+```
+Install the required libraries:
+
+```
+ python -m pip install -r requirements.txt
+```
+Add your query id to the file:
+```
+nano data.txt
+```
+
+## Run File
 
 | Run with Proxy                   | Run without Proxy   |
 | -------------------------------- | ------------------- |
-| `bot-proxy.py` `data-proxy.json` | `bot.py` `data.txt` |
-
-## ⚠️ Note
-
-- Get auth data (`query_id=... /user=...`) in the `Application` tab in DevTools.
-- Replace your referral code in `core/token.py` file.
-- Auto features: Change `false` to `true` in the `config.json` file.
-- Supported commands: `/run_bot` `/query_id` `/proxy` `/proxy_web` (Join group to use these commands).
+| `bot-proxy.py` | `bot.py`|
